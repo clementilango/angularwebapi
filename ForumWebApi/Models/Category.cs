@@ -7,9 +7,8 @@ namespace ForumWebApi.Models
 {
     public class Category
     {
-        public int id { get; set; }
-        public string name { get; set; }
-    public string description { get; set; }
-public string position { get; set; }
+        public int CategoryId { get; set; }
+        public string CategoryName { get; set; }
+    public string Description { get; set; }
     }
 }
